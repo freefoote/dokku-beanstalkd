@@ -7,11 +7,11 @@ that it can't export or import data, as that doesn't make much sense for this.
 
 ## Environment
 
-The target container gets an BEANSTALKD_URL environment variable in the format
-beanstalkd://IP:PORT/, that you can use to connect inside your app.
+The target container gets an `BEANSTALKD_URL` environment variable in the format
+`beanstalkd://IP:PORT/`, that you can use to connect inside your app.
 
 Beanstalkd does not support authentication, so anyone who can connect can
-access it. Be very careful if you choose to expose the port externally.
+access it. Be careful if you choose to expose the port externally.
 
 ## Requirements
 
